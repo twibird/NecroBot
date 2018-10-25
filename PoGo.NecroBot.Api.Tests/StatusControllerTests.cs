@@ -9,11 +9,13 @@ namespace PoGo.NecroBot.Api.Tests
     public class StatusControllerTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void StatusIntegrationSuccessTest()
         {
             HttpClient client = new HttpClient();
             
             Assert.AreEqual(client.GetAsync(new Uri("localhost/status")).Result.StatusCode, HttpResponseCode.OK);
         }
+
+
     }
 }
