@@ -20,5 +20,6 @@ namespace PoGo.NecroBot.Api.Tests.DependencyResolution
     /// </summary>
     internal class ApiTestRegistry
     {
+
     }
 }
