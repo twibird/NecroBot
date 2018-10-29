@@ -9,5 +9,6 @@ namespace PoGo.NecroBot.Api.DependencyResolution
     public class ApiRegistry
     {
         For<IBotCommunicate>().Use<BotCommunicate>().Singleton();
+        For<IBotMessage>().Use<BotMessage>();
     }
 }
